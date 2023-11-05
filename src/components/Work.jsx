@@ -8,13 +8,13 @@ import { Link } from "react-router-dom"
 
 const Work = () => {
   return (
-    <div className='text-[#020826] flex gap-10 flex-col justify-center items-center'>
+    <div className='text-[#020826] flex gap-10 px-4 md:px-0 flex-col justify-center items-center'>
       <div className="flex gap-10 flex-col md:flex-row justify-center items-center">
       <Link to="https://craftzblog.vercel.app"><div className="relative group cursor-pointer">
           <img src={six} alt="" className=" md:w-[500px] md:h-[400px] w-[350px] object-cover"/>
           <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 bg-[#f9f4ef] bg-opacity-50 transition-opacity duration-300 group-hover:opacity-100">
             <p className="text-[#020826] font-archivo font-bold text-3xl md:text-5xl text-center">Blog Application</p>
-            <p className="text-[#020826] font-fira font-semibold mt-7 text-sm md:text-md text-center">React.js, MongoDB, Node.js, Express.js</p>
+            <p className="text-[#020826] font-fira font-semibold mt-7 text-xs md:text-md text-center uppercase">CRUD React Application</p>
           </div>
         </div></Link>
 
@@ -22,7 +22,7 @@ const Work = () => {
           <img src={one} alt="" className="md:w-[100%] md:h-[400px] w-[350px] object-cover"/>
           <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 bg-[#f9f4ef] bg-opacity-50 transition-opacity duration-300 group-hover:opacity-100">
           <p className="text-[#020826] font-archivo font-bold text-3xl md:text-5xl text-center">CryptoRush</p>
-            <p className="text-[#020826] font-fira font-semibold mt-7 text-sm md:text-md text-center">React.js, Redux, Netlify hosting, API Integration</p>
+            <p className="text-[#020826] font-fira font-semibold mt-7 text-xs md:text-md text-center uppercase">React js Application</p>
           </div>
         </div></Link>
         
@@ -33,7 +33,7 @@ const Work = () => {
         <img src={three} alt="" className="md:w-[100%] md:h-[400px] w-[350px] object-cover" />
           <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 bg-[#f9f4ef] bg-opacity-50 transition-opacity duration-300 group-hover:opacity-100">
           <p className="text-[#020826] font-archivo font-bold text-3xl md:text-5xl text-center">Open Dev Cons</p>
-            <p className="text-[#020826] font-fira font-semibold mt-7 text-sm md:text-md text-center">React.js, MongoDB, Node.js, Passport.js</p>
+            <p className="text-[#020826] font-fira font-semibold mt-7 text-xs md:text-md text-center uppercase">Full Stack React Application</p>
           </div>
         </div></Link>
 
@@ -41,7 +41,7 @@ const Work = () => {
         <img src={four} alt="" className=" md:w-[500px] md:h-[400px] w-[350px] object-cover"/>
           <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 bg-[#f9f4ef] bg-opacity-50 transition-opacity duration-300 group-hover:opacity-100">
           <p className="text-[#020826] font-archivo font-bold text-3xl md:text-5xl text-center">CodeKaro</p>
-            <p className="text-[#020826] font-fira font-semibold mt-7 text-sm md:text-md text-center">React.js, Netlify hosting, API Integration</p>
+            <p className="text-[#020826] font-fira font-semibold mt-7 text-xs md:text-md text-center uppercase">Front-End Application with API </p>
           </div>
         </div></Link>
         
@@ -53,15 +53,15 @@ const Work = () => {
           <img src={five} alt="" className="md:w-[500px] md:h-[400px] w-[350px] object-cover" />
           <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 bg-[#f9f4ef] bg-opacity-50 transition-opacity duration-300 group-hover:opacity-100">
           <p className="text-[#020826] font-archivo font-bold text-3xl md:text-5xl text-center">KryptoChat</p>
-            <p className="text-[#020826] font-fira font-semibold mt-7 text-sm md:text-md text-center">React.js, Node.js, Firebase</p>
+            <p className="text-[#020826] font-fira font-semibold mt-7 text-xs md:text-md text-center uppercase">Full stack Real-time chat Application</p>
           </div>
         </div></Link>
 
-        <Link ><div className="relative group">
+        <Link to="https://client-portfolio-nine.vercel.app/" ><div className="relative group">
           <img src={six} alt="" className="md:w-[100%] md:h-[400px] w-[350px] object-cover"/>
           <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 bg-[#f9f4ef] bg-opacity-50 transition-opacity duration-300 group-hover:opacity-100">
-          <p className="text-[#020826] font-archivo font-bold text-3xl md:text-5xl text-center">CryptoRush</p>
-            <p className="text-[#020826] font-fira font-semibold mt-7 text-sm md:text-md text-center">React.js, Redux, Netlify hosting, API Integration</p>
+          <p className="text-[#020826] font-archivo font-bold text-3xl md:text-5xl text-center">Portfolio</p>
+            <p className="text-[#020826] font-fira font-semibold mt-7 text-xs md:text-md text-center uppercase" >Freelance work</p>
           </div>
         </div></Link>
         
