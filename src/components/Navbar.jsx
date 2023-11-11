@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="text-[#00214d] flex py-5 px-[2em] md:px-[9em] border justify-between items-center">
         <Link to="/">
             <div className="flex justify-center items-center">
-                {/* <img src={logo} alt="logo" className="w-[40px] " /> */}
+                {/* <img src={logo} alt="logo" className="md:w-[70px] hidden md:block " /> */}
                 <h1 className="font-labelle text-2xl font-bold md:text-4xl underline">Craftingbugs</h1>
             </div>
         </Link>
