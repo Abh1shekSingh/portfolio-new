@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa6";
 const Navbar = () => {
   
   return (
-    <motion.nav initial={{y:-250}} animate={{y:0}} transition={{duration:2, ease:'easeInOut'}} className="dark:bg-bgdark transition-all duration-500 dark:text-textdark fixed top-0 z-20 w-full bg-bglight flex py-3 px-5 md:px-[9em] justify-between items-center ">
+    <motion.nav initial={{y:-250}} animate={{y:0}} transition={{duration:2, ease:'easeInOut'}} className="dark:bg-bgdark transition-all text-textlight duration-700 dark:text-textdark fixed top-0 z-20 w-full bg-bglight flex py-3 px-5 md:px-[9em] justify-between items-center ">
         <a href="/">
             <div className="flex justify-center items-center">
                 <h1 className="font-labelle text-2xl font-bold md:text-3xl underline">Craftingbugs</h1>
