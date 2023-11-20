@@ -10,8 +10,8 @@ export default {
     extend: {
       fontFamily: {
         'labelle':['La Belle Aurore', 'cursive'],
-        'syne':['Syne', 'sans-serif'],
-        'montserrat':['Montserrat', 'sans-serif'],
+        'outfit':['Outfit', 'sans-serif'],
+        'zilla':['Zilla Slab', 'serif'],
       },
       colors: {
         'bgdark':'#0e0e0c',

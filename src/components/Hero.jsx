@@ -5,7 +5,7 @@ const Hero = () => {
   
   return (
     <div className="w-full  h-screen flex justify-center items-center">
-      <h1 className="w-full z-10 space-y-16 uppercase text-accent-300 text-[13vw] 2xl:text-[10vw] flex flex-col justify-between items-center font-montserrat font-bold ">
+      <h1 className="w-full z-10 space-y-16 uppercase text-accent-300 text-[13vw] 2xl:text-[11vw] flex flex-col justify-between items-center font-outfit font-bold ">
         <span className="block overflow-hidden">
           <motion.span initial={{y:250}} animate={{y:0}} transition={{duration:2, ease:'easeInOut', type:'easeIn'}}  className="block transition-all duration-500 dark:text-textdark  text-textlight">Abhishek.</motion.span>
         </span>
