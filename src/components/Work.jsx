@@ -7,7 +7,7 @@ import blog from "../assets/578shots_so.webp"
 import { useInView } from "react-intersection-observer"
 import { useEffect } from "react"
 import { motion } from "framer-motion"
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Work = () => {
 
@@ -29,7 +29,8 @@ const Work = () => {
           <motion.span initial={{y:200}} animate={{y: inView ? 0 : 100}} transition={{ duration: 1, ease: [0.6, 0.05, -0.01, 0.9] }} className="block">Projects</motion.span>
         </span>
       </h1>
-      <div className=" md:w-[70%] mx-auto ">
+
+      <Link to="https://craftzblog.vercel.app" target="_blank" rel="noopener noreferrer" className=" md:w-[70%] mx-auto "><div >
         <div className="overflow-hidden trantition duration-700 hover:rounded-3xl">
           <img src={blog} alt="blog-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy" />
         </div>
@@ -41,11 +42,11 @@ const Work = () => {
           <h2 className="md:text-5xl text-2xl uppercase font-bold ">Craftzblog</h2>
           <h2 className="md:text-2xl text-sm ">Full-Stack Development</h2>
         </div>
-      </div>
+      </div></Link>
 
       <div className="text-black grid grid-cols-7 gap-10 md:mx-[5em] mx-auto mt-[0em]">
       
-      <div className="md:col-span-4 col-span-7 ">
+      <Link to="https://cryptorushh.netlify.app/" target="_blank" rel="noopener noreferrer" className="md:col-span-4 col-span-7 " ><div >
         <div className="overflow-hidden trantition duration-700 hover:rounded-3xl ">
           <img src={five} alt="Cryptorush-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy" />
         </div>
@@ -57,11 +58,11 @@ const Work = () => {
           <h2 className="md:text-5xl text-2xl uppercase font-bold ">Cryptorush</h2>
           <h2 className="md:text-2xl text-sm ">Front-End Development</h2>
         </div>
-      </div>
+      </div></Link>
         
 
 
-      <div className="md:col-span-3 col-span-7  ">
+      <Link to="https://client-portfolio-nine.vercel.app/" target="_blank" rel="noopener noreferrer" className="md:col-span-3 col-span-7  "><div >
         <div className="overflow-hidden trantition duration-700 hover:rounded-3xl ">
           <img src={three} alt="blog-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy" />
         </div>
@@ -73,11 +74,11 @@ const Work = () => {
           <h2 className="md:text-5xl text-2xl uppercase font-bold text-textdark ">Portfolio</h2>
           <h2 className="md:text-2xl text-sm text-textdark">Front-End Development</h2>
         </div>
-      </div>
+      </div></Link>
 
 
 
-      <div className="md:col-span-3 col-span-7">
+      <Link to="https://codeekaro.netlify.app/" target="_blank" rel="noopener noreferrer" className="md:col-span-3 col-span-7"><div >
         <div className="overflow-hidden trantition duration-700 hover:rounded-3xl ">
           <img src={four} alt="blog-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy"/>
         </div>
@@ -89,11 +90,11 @@ const Work = () => {
           <h2 className="md:text-5xl text-2xl uppercase font-bold text-textdark">Codekaro</h2>
           <h2 className="md:text-2xl text-sm text-textdark">Front-End Development</h2>
         </div>
-      </div>
+      </div></Link>
 
 
 
-        <div className="md:col-span-4 col-span-7  ">
+        <Link to="https://opendevcons.netlify.app/" target="_blank" rel="noopener noreferrer" className="md:col-span-4 col-span-7  "><div >
         <div className="overflow-hidden trantition duration-700 hover:rounded-3xl ">
           <img src={six} alt="blog-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy" />
         </div>
@@ -105,7 +106,7 @@ const Work = () => {
           <h2 className="md:text-5xl text-2xl uppercase font-bold text-textdark ">OpenDevCons</h2>
           <h2 className="md:text-2xl text-sm text-textdark">Full-Stack Development</h2>
         </div>
-      </div>
+      </div></Link>
       </div>
 
 

@@ -8,6 +8,7 @@ import Aboutme from "./components/Aboutme"
 // import locomotiveScroll from "locomotive-scroll";
 import { CTA } from "./components/CTA"
 import { Footer } from "./components/Footer"
+import { BrowserRouter } from "react-router-dom"
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   
 
   return (
-        <div className="scroll" >
+        <BrowserRouter >
           <Navbar />
           <Hero />
           <About />
@@ -33,7 +34,7 @@ function App() {
           <Work />
           <CTA />
           <Footer />
-        </div>   
+        </BrowserRouter>   
   )
 }
 
