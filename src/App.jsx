@@ -1,12 +1,12 @@
 import "./App.css"
 import Work from "./components/Work"
 import About from "./components/About"
-// import { CTA } from "./components/CTA"
 import Navbar from "./components/Navbar"
 import React, { useEffect } from "react"
 import Hero from "./components/Hero"
 import Aboutme from "./components/Aboutme"
 import locomotiveScroll from "locomotive-scroll";
+import { CTA } from "./components/CTA"
 
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
           <About />
           <Aboutme />
           <Work />
-        
+          <CTA />
         </div>   
   )
 }

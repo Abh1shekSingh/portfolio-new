@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 const Aboutme = () => {
 
   const [ref, inView] = useInView({
-    triggerOnce: true,
+    triggerOnce: false,
   });
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const Aboutme = () => {
             className="block md:text-8xl text-4xl uppercase font-saira font-bold text-textdark"
             initial={{ y: 100 }}
             animate={{ y: inView ? 0 : 100 }}
-            transition={{ duration: 0.5, ease: [0.6, 0.05, -0.01, 0.9] }}
+            transition={{ duration: 1, ease: [0.6, 0.05, -0.01, 0.9] }}
             
           >
             About Me
