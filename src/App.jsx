@@ -2,10 +2,10 @@ import "./App.css"
 import Work from "./components/Work"
 import About from "./components/About"
 import Navbar from "./components/Navbar"
-import React, { useEffect } from "react"
+// import React, { useEffect } from "react"
 import Hero from "./components/Hero"
 import Aboutme from "./components/Aboutme"
-import locomotiveScroll from "locomotive-scroll";
+// import locomotiveScroll from "locomotive-scroll";
 import { CTA } from "./components/CTA"
 
 
