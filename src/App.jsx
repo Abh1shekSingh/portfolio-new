@@ -10,19 +10,21 @@ import locomotiveScroll from "locomotive-scroll";
 
 
 function App() {
-  const scrollRef = React.createRef();
+  // const scrollRef = React.createRef();
 
-  useEffect(() => {
-    const scroll = new locomotiveScroll({
-      el: scrollRef.current,
-      smooth: true
-    });
-  });
+  // useEffect(() => {
+  //   const scroll = new locomotiveScroll({
+  //     el: scrollRef.current,
+  //     smooth: true
+  //   });
+
+  //   return () => scroll.destroy();
+  // });
   
   
 
   return (
-        <div className="scroll" data-scroll data-scroll-position="top" data-scroll-speed="-5" ref={scrollRef}>
+        <div className="scroll" >
           <Navbar />
           <Hero />
           <About />
