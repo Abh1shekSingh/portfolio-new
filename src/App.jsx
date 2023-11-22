@@ -22,7 +22,7 @@ function App() {
   
 
   return (
-        <div className="scroll" data-scroll data-scroll-position="top" data-scroll-speed="0.1" ref={scrollRef}>
+        <div className="scroll" data-scroll data-scroll-position="top" data-scroll-speed="-5" ref={scrollRef}>
           <Navbar />
           <Hero />
           <About />

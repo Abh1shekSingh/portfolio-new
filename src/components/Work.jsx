@@ -27,7 +27,7 @@ const Work = () => {
     <section ref={ref}  className='w-full my-[8em] md:my-[12em]  flex gap-10 px-4 md:px-0 flex-col justify-center items-center'>
       <h1 className="uppercase md:text-8xl text-4xl font-outfit font-bold">Projects</h1>
       <div className=" md:w-[70%] mx-auto ">
-        <div className="overflow-hidden trantition duration-500 hover:rounded-3xl">
+        <div className="overflow-hidden trantition duration-700 hover:rounded-3xl">
           <img src={blog} alt="blog-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy" />
         </div>
         <div className=" flex gap-2 mt-2 font-zilla">
@@ -43,7 +43,7 @@ const Work = () => {
       <div className="text-black grid grid-cols-7 gap-10 md:mx-[5em] mx-auto mt-[0em]">
       
       <div className="md:col-span-4 col-span-7 ">
-        <div className="overflow-hidden trantition duration-500 hover:rounded-3xl ">
+        <div className="overflow-hidden trantition duration-700 hover:rounded-3xl ">
           <img src={five} alt="Cryptorush-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy" />
         </div>
         <div className=" flex gap-2 mt-2 font-zilla">
@@ -59,7 +59,7 @@ const Work = () => {
 
 
       <div className="md:col-span-3 col-span-7  ">
-        <div className="overflow-hidden trantition duration-500 hover:rounded-3xl ">
+        <div className="overflow-hidden trantition duration-700 hover:rounded-3xl ">
           <img src={three} alt="blog-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy" />
         </div>
         <div className=" flex gap-2 mt-2 font-zilla">
@@ -75,7 +75,7 @@ const Work = () => {
 
 
       <div className="md:col-span-3 col-span-7">
-        <div className="overflow-hidden trantition duration-500 hover:rounded-3xl ">
+        <div className="overflow-hidden trantition duration-700 hover:rounded-3xl ">
           <img src={four} alt="blog-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy"/>
         </div>
         <div className=" flex gap-2 mt-2 font-zilla">
@@ -91,7 +91,7 @@ const Work = () => {
 
 
         <div className="md:col-span-4 col-span-7  ">
-        <div className="overflow-hidden trantition duration-500 hover:rounded-3xl ">
+        <div className="overflow-hidden trantition duration-700 hover:rounded-3xl ">
           <img src={six} alt="blog-app-image" className="cursor-pointer object-cover  hover:scale-110 transition duration-700 ease-in-out" loading="lazy" />
         </div>
         <div className=" flex gap-2 mt-2 font-zilla">
