@@ -7,6 +7,7 @@ import Hero from "./components/Hero"
 import Aboutme from "./components/Aboutme"
 // import locomotiveScroll from "locomotive-scroll";
 import { CTA } from "./components/CTA"
+import { Footer } from "./components/Footer"
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Aboutme />
           <Work />
           <CTA />
+          <Footer />
         </div>   
   )
 }

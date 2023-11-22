@@ -1,15 +1,20 @@
-
+import { FaRegArrowAltCircleUp } from "react-icons/fa";
 
 export const Footer = () => {
+  const year = new Date().getFullYear();
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
-    <div  className="md:px-[5em] py-[1em] bg-[#00214d] flex flex-col md:flex-row justify-center items-center md:justify-between mt-[2em] gap-2 md:mt-[15em]">
-      <div className="flex justify-center items-center">
-      {/* <img src={logo} alt="" className="w-[60px]" /> */}
-      <h1 className="font-syne font-bold text-2xl">Craftingbugs</h1>
+    <section>
+      <div className="py-4 px-3 flex justify-between items-center">
+        <h3 className="uppercase font-saira font-bold">&copy; {year} Craftingbugs</h3>
+        <h3 className="uppercase font-saira font-medium">Developed with ❤️</h3>
+        <h3 className="uppercase font-saira font-bold cursor-pointer flex items-center gap-5" onClick={scrollToTop}>Scroll to Top<FaRegArrowAltCircleUp /></h3>
       </div>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-3 text-[#fffffe] tracking-wider font-syne text-md ">
-        <p>©2023 Craftingbugs. All Rights Reserved.</p>
-      </div>
-    </div>
+    </section>
   )
 }
