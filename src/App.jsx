@@ -9,6 +9,7 @@ import Aboutme from "./components/Aboutme"
 import { CTA } from "./components/CTA"
 import { Footer } from "./components/Footer"
 import { BrowserRouter } from "react-router-dom"
+import MouseTrailer from "./components/MouseTrailer"
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Work />
           <CTA />
           <Footer />
+          <MouseTrailer />
         </BrowserRouter>   
   )
 }
