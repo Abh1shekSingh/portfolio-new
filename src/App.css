@@ -7,7 +7,7 @@
 html, body {
     width: 100%;
     height: 100vh;
-    cursor: none;
+    cursor: default;
 }
 
 .stroked {
@@ -27,3 +27,6 @@ html, body {
     user-select: none;
   }
   
+  mark {
+    background:orange
+  }

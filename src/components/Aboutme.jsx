@@ -41,15 +41,15 @@ const Aboutme = () => {
           <div className='w-full space-y-4  space-x-4 2xl:space-y-10'>
             <h3 className='translate-y-1 px-4 text-3xl 2xl:text-6xl font-saira font-bold leading-tight'>A brief intro, Who am I?</h3>
             <p className='2xl:text-3xl text-xl translate-y-1 font-saira'>
-              Hey, &apos;m Abhishek, your Friendly Neighborhood Developer! <br></br><br></br>
-               As a frontend developer, I turn Rasmalai into code and dreams into websites. 
+              Hey, <mark>I&apos;m Abhishek</mark>, your Friendly Neighborhood Developer! <br></br><br></br>
+               As a <mark>frontend developer</mark>, I turn Rasmalai into code and dreams into websites. 
                My superpower? Making sure your UI looks so good that even your cat will be impressed. 😺
                <br></br><br></br>
                When I&apos;m not typing away at my keyboard, you can find me passionately arguing 
                that tabs are superior to spaces (just kidding... or am I?).
                <br></br><br></br>
                Oh, did I mention I&apos;m a part-time wordsmith? 
-               Catch me on <a href='https://dev.to/craftingbugs' className='underline'>dev.to</a> where I spill the beans on coding adventures, share tips and tricks, 
+               Catch me on <a href='https://dev.to/craftingbugs' className='underline'><mark>dev.to</mark></a> where I spill the beans on coding adventures, share tips and tricks, 
                and attempt to make the tech world a little less serious. 
                Because let&apos;s face it, coding is fun, and so are my blogs!
             </p>
