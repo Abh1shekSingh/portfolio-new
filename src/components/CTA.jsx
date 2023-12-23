@@ -9,7 +9,7 @@ export const CTA = () => {
   const [hover, setHover] = useState(false);
 
   const copyToClipboard = () => {
-    const emailText = emailRef.current.innerText;
+    const emailText = "abhinav210702@gmail.com";
     navigator.clipboard.writeText(emailText).then(() => {
       setCopy(true);
       setTimeout(() => setCopy(false), 3000); 
